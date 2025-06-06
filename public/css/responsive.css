@@ -1,0 +1,257 @@
+@media only screen and (max-width: 850px) {
+  .sectophead {
+    font-size: 60% !important;
+    margin-top: 15em !important;
+  }
+}
+
+@media only screen and (max-width: 669px) {
+  #loginemail,
+  #loginpass {
+    font-size: 15px !important;
+  }
+
+  .loginpassfield span {
+    font-size: 10px;
+  }
+
+  .loginpassfield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5em !important;
+  }
+
+  #passtogglelogin {
+    height: 13px;
+    width: 10px;
+  }
+
+  .loginusername,
+  .pass {
+    font-size: 13px !important;
+  }
+
+  #loginbtn,
+  .newsignup {
+    font-size: 14px !important;
+    padding: 4px !important;
+  }
+
+  #slabelcheck {
+    margin-left: 0em;
+  }
+  #spassword {
+    margin-left: 8em;
+  }
+
+  .spasslabel {
+    margin-left: 0 !important;
+  }
+
+  .pass {
+    margin-right: 20px !important;
+  }
+
+  .inputfields .loginusername {
+    padding-right: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 634px) {
+  #slabelcheck {
+    margin-left: 9em;
+  }
+  #spassword {
+    margin-left: 0em !important;
+  }
+}
+
+@media only screen and (max-width: 514px) {
+  .sectophead {
+    font-size: 50% !important;
+    margin-top: 18em !important;
+    padding-top: 2em !important;
+    padding-bottom: 5em !important;
+  }
+}
+
+@media only screen and (max-width: 421px) {
+  #passtogglelogin {
+    height: 8px !important;
+    width: 7px !important;
+    margin-right: 3px !important;
+    margin-left: 3px !important;
+  }
+  .logintophead h1 {
+    font-size: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .inputfields {
+    margin-bottom: 20px !important;
+  }
+  #loginemail {
+    padding-right: -2em;
+  }
+
+  .loginusername,
+  .pass {
+    font-size: 10px !important;
+    padding-right: 0px !important;
+  }
+
+  .loginpass,
+  .loginemail {
+    font-size: 10px !important;
+  }
+
+  .pass {
+    margin-right: 22px !important;
+    margin-left: 0px !important;
+  }
+
+  #loginbtn,
+  .newsignup {
+    font-size: 14px !important;
+    padding: 4px !important;
+  }
+
+  .inputfields label {
+    padding-right: 20px !important;
+  }
+
+  .loginusername {
+    padding: 0px;
+  }
+
+  .loginpassfield span {
+    font-size: 6px !important;
+  }
+
+  .loginpassfield {
+    margin-left: 3.1em !important;
+    margin-bottom: 20px !important;
+  }
+
+  .inputfields {
+    margin-right: 4px;
+  }
+
+  .newsignup,
+  #loginbtn {
+    font-size: 8px !important;
+  }
+
+  .sechead {
+    font-size: 60%;
+  }
+
+  .secbtns {
+    font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 377px) {
+  .spasslabel {
+    padding-right: 60px !important;
+    margin-right: 10px !important;
+    margin-left: 70px !important;
+  }
+
+  .scontainer div label {
+    padding-right: 50px;
+    margin-left: 50px;
+  }
+
+  .snameinp {
+    margin-left: 0 !important;
+  }
+
+  #slabelcheck {
+    margin-left: 50px;
+  }
+
+  #Ssubmitbtn,
+  .newsignupbtn1,
+  .newsignupbtn2 {
+    font-size: 10px !important;
+    align-self: center;
+  }
+
+  .snameinp,
+  #signemail,
+  #signpass {
+    font-size: 15px !important;
+    width: 80%;
+  }
+
+  .scontainer div label {
+    font-size: 15px !important;
+  }
+
+  .scontainer div {
+    margin-bottom: 1em !important;
+  }
+
+  .loginpassfield {
+    margin-right: 5px;
+  }
+
+  #loginemail,
+  #loginpass {
+    font-size: 10px !important;
+  }
+
+  .loginpassfield label {
+    margin-right: 8px !important;
+  }
+  .inputfields .loginusername {
+    padding-right: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 284px) {
+  #loginform .loginpassfield {
+    margin-left: 10px !important;
+  }
+
+  .inputfields {
+    margin-right: 44px;
+  }
+
+  .loginbtn,
+  .signupbtn {
+    font-size: 10px;
+    width: 70px !important;
+    padding: 4px !important;
+    margin-right: 1em !important;
+  }
+
+  .card1 h1,
+  .card1 h5 {
+    font-size: 15px;
+  }
+
+  .card1 div ion-icon {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 253px) {
+  .sectophead {
+    font-size: 20% !important;
+    margin-top: 40em !important;
+    padding-top: 20em !important;
+    padding-bottom: 20em !important;
+  }
+
+  .sechead {
+    font-size: 140%;
+  }
+
+  .secbtns {
+    font-size: 170% !important;
+  }
+}

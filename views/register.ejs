@@ -1,0 +1,77 @@
+<%- include('partials/header') %>
+
+<div>
+  <h1 class="text-center mb-5">Sign up</h1>
+
+  <form action="/signup" method="POST" id="registerform">
+    <div class="scontainer">
+    <div class="mb-5">
+      <label for="sname" style="padding-right: 50px" class="fs-5">
+        Name
+      </label>
+      <input type="text" class="snameinp fs-5" name="sname" placeholder="Type your name" value="ns" required></input>
+    </div>
+    <div class="mb-5">
+      <label for="signinput" style="padding-right: 50px" class="fs-5"
+        >Username</label
+      >
+      <input
+        id="signemail"
+        class="fs-5"
+        type="text"
+        name="sinput"
+        placeholder="Email"
+        value="ns@gmail.com"
+        required
+      />
+      
+      
+      <div style="display:none" id="emailerr">Email is not of proper format</div>
+    </div>
+    <div id="spassword" class="mb-5">
+      <label for="signpass" style="padding-right: 54px; margin-left:6.6em;" class="spasslabel fs-5"
+        >Password
+      </label>
+      <input
+        id="signpass"
+        class="fs-5"
+        type="text"
+        placeholder="Password"
+        name="spass"
+        value="ns@12NS"
+        required
+      />
+      <div style="display:none" id="passerr">password is not of defined format</div>
+
+      
+    <label id="slabelcheck">
+      <input type="checkbox" id="togglePassword" />
+        Show Password
+    </label>
+      <div>(Password should contain 2 digits, 2 uppercase letters, 2 lowercase letters and one special character)</div>
+
+    </div>
+    <div style="display: flex; justify-content: center">
+      <input
+        id="Ssubmitbtn"
+        type="submit"
+        class="btn btn-outline-secondary fs-5"
+        value="Sign up"
+      />
+      <a
+        href="/login"
+        type="button"
+        class="newsignupbtn1 btn btn-outline-primary fs-5"
+        >To Login</a
+      >
+      <a
+        href="/"
+        type="button"
+        class="newsignupbtn2 btn btn-outline-primary fs-5"
+        >Back To Home</a
+      >
+    </div>
+    </div>
+  </form>
+</div>
+<%- include('partials/footer') %>

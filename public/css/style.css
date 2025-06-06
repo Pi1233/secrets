@@ -1,0 +1,152 @@
+body {
+  background: linear-gradient(90deg, lightblue, lightgrey, lightgreen, grey);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-width: 250px;
+}
+
+.card1 {
+  background: linear-gradient(90deg, lightblue, lightgrey, lightgreen, grey);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.scontainer {
+  text-align: center;
+}
+
+.snameinp {
+  margin-left: 36px;
+}
+
+.secretshead {
+  background: linear-gradient(red, blue);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.signupbtn,
+.loginbtn {
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+
+  background-color: rgb(98, 255, 255);
+  color: black;
+  border: none;
+  box-shadow: 2px 2px 2px 0px, inset 2px 5px 4px 0px;
+}
+
+.signupbtn:hover,
+.loginbtn:hover {
+  background-color: rgba(0, 255, 200, 0.864);
+  color: rgb(255, 0, 0);
+  box-shadow: 5px 5px 5px 5px black;
+  transition: background-color 0.4s, color 0.5s, box-shadow 0.3s;
+}
+
+.signupbtn:active,
+.loginbtn:active {
+  background-color: white;
+  color: black;
+  box-shadow: 4px 5px 5px 2px black;
+  box-shadow: inset -1px -1px 6px 2px lightcoral;
+}
+
+.sectophead {
+  background-color: black;
+  padding-bottom: 2em;
+  padding-top: 1em;
+  margin-top: 8em;
+}
+
+.sechead {
+  margin-left: 2em;
+  color: white;
+}
+
+.secbtns {
+  display: flex;
+  justify-content: center;
+}
+
+.secbtns a {
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: lightcoral;
+  color: white;
+  padding: 10px;
+  margin-right: 1em;
+  margin-top: 1em;
+  font-size: 1.4em;
+}
+
+.secbtns a:hover {
+  color: rgb(141, 227, 255);
+  background-color: lightyellow;
+}
+
+.secbtns a:active {
+  color: grey;
+  background-color: antiquewhite;
+}
+
+.sname {
+  color: aqua;
+}
+
+.secpagehead {
+  font-size: 4em;
+  align-items: center;
+}
+
+.sechead {
+  justify-self: center;
+}
+
+.secemail,
+#user-id {
+  justify-self: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+.newsignup {
+  margin-left: 1em;
+}
+
+#passtogglelogin {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.loginpassfield {
+  margin-left: 8em;
+}
+
+#loginemail {
+  padding-right: -2em !important;
+}
+
+.inputfields {
+  margin-left: -5px;
+}
+
+.loginusername {
+  padding-right: 53px !important;
+}
+
+.logintophead {
+  margin-top: 3em;
+}
+
+.newsignupbtn1 {
+  margin-left: 10px;
+  margin-right: 10px;
+}

@@ -1,0 +1,64 @@
+<%- include('partials/header') %>
+
+<div class="logintophead">
+  <h1 class="text-center mb-5">Login</h1>
+
+  <form action="/login" method="POST" id="loginform">
+    <div class="mb-5 text-center inputfields">
+      <label
+        for="loginput"
+        class="loginusername fs-5"
+        style="padding-right: 56px"
+        >Username</label
+      >
+      <input
+        class="fs-5"
+        type="text"
+        id="loginemail"
+        name="loginput"
+        placeholder="Email"
+        value="ns@gmail.com"
+        required
+      />
+      <div class="loginemail" style="display: none">
+        Email is not in correct format
+      </div>
+    </div>
+    <div class="loginpassfield text-center mb-5">
+      <label
+        for="logpass"
+        style="margin-right: 57px; margin-left: 15px"
+        class="pass fs-5"
+        >Password
+      </label>
+      <input
+        class="fs-5"
+        type="text"
+        placeholder="Password"
+        name="logpass"
+        id="loginpass"
+        value="ns@12NS"
+        required
+      />
+      <input type="checkbox" id="passtogglelogin" /><span>Show Password</span>
+      <div class="loginpass" style="display: none">
+        Password is not in correct format
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center">
+      <input
+        type="submit"
+        id="loginbtn"
+        class="btn btn-outline-primary fs-5"
+        value="Login"
+      />
+      <a
+        href="/register"
+        type="button"
+        class="newsignup btn btn-outline-primary fs-5"
+        >New Signup</a
+      >
+    </div>
+  </form>
+</div>
+<%- include('partials/footer') %>

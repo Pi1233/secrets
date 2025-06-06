@@ -1,0 +1,29 @@
+<%- include('partials/header.ejs') %>
+
+<div class="bigcontainer">
+  <div class="container">
+    <div
+      class="card1 card mb-5"
+      style="border: none; border-bottom: 1px solid; border-radius: 0"
+    >
+      <div class="text-center">
+        <ion-icon
+          name="key"
+          style="font-size: 200px; color: rgba(0, 157, 16, 0.556)"
+        ></ion-icon>
+      </div>
+      <h1 class="secretshead text-center">
+        Secrets
+        <h5 class="text-center text-primary">
+          Don't keep your secrets, share them anonmously
+        </h5>
+      </h1>
+    </div>
+    <div class="btndiv text-center">
+      <a type="button" href="/register" class="signupbtn me-5"> Sign up </a>
+      <a type="button" href="/login" class="loginbtn">Login</a>
+    </div>
+  </div>
+</div>
+
+<%- include('partials/footer.ejs') %>
